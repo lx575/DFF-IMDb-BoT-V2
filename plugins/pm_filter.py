@@ -404,8 +404,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉𝗌 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
             InlineKeyboardButton('𝖨𝖬𝖣𝖻 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌❓', callback_data='contect')
             ],[
             InlineKeyboardButton('⚙ 𝖧𝖾𝗅𝗉', callback_data='help'),         
@@ -445,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚙ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍', url='https://t.me/DFF_SUPPORT')
             ],[
             InlineKeyboardButton('➡️ 𝖧𝖾𝗅𝗉', callback_data='help'),
-            InlineKeyboardButton('⛏ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋', url='https://t.me/CVBHJOI_BOT')
+            InlineKeyboardButton('⛏ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋', url='https://t.me/subhan011')
             ],[
             InlineKeyboardButton('⚔ 𝖲𝖮𝖴𝖱𝖢𝖤 𝖢𝖮𝖣𝖤', callback_data='source')
             ],[
