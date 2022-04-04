@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('𝖨𝖬𝖣𝖻 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 ❓', callback_data='contect')
             ],[
             InlineKeyboardButton('⚙ 𝖧𝖾𝗅𝗉', callback_data='help'),         
-            InlineKeyboardButton('👤 𝖠𝖻𝗈𝗎𝗍 𝗆𝖾', callback_data='about')
+            InlineKeyboardButton('🔐 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(
