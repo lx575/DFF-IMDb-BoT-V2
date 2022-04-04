@@ -407,7 +407,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖨𝖬𝖣𝖻 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌❓', callback_data='contect')
             ],[
             InlineKeyboardButton('⚙ 𝖧𝖾𝗅𝗉', callback_data='help'),         
-            InlineKeyboardButton('👤 𝖠𝖻𝗈𝗎𝗍 𝗆𝖾', callback_data='about')                                                      
+            InlineKeyboardButton('🔐 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')                                                      
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -416,19 +416,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "help":
-        buttons = [[
-            InlineKeyboardButton('𝖬𝖺𝗇𝗎𝖾𝗅 𝖥𝗂𝗅𝗍𝖾𝗋', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝖠𝗎𝗍𝗈 𝖥𝗂𝗅𝗍𝖾𝗋', callback_data='autofilter')
-            ],[
-            InlineKeyboardButton('𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇', callback_data='coct'),
-            InlineKeyboardButton('𝖤𝗑𝗍𝗋𝖺 𝖬𝗈𝖽𝗌', callback_data='extra')
-            ],[
-            InlineKeyboardButton('🔮 𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),           
-            InlineKeyboardButton('🔺𝖠𝖻𝗈𝗎𝗍', callback_data='about')
-            ],[                        
+        buttons = [[                        
             InlineKeyboardButton('𝖨𝖬𝖣𝖻 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌❓', callback_data='contectt')
             ],[
-            InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁 𝖬𝗈𝗏𝗂𝖾𝗌', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁 𝖬𝗈𝗏𝗂𝖾𝗌', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('🔙 𝖡𝖠𝖢𝖪', callback_data='start'),            
             InlineKeyboardButton('🔐 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
